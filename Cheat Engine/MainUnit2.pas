@@ -32,14 +32,14 @@ const
   strMyCheatTables='My Mod Tables';
   strSpeedHack='Speedmodifier';
 {$else}
-  strCheatEngine='Cheat Engine';
-  strCheatTable='Cheat Table';
-  strCheatTableLower='cheat table';
-  strCheat='Cheat';
-  strTrainer='Trainer';
-  strTrainerLower='trainer';
-  strMyCheatTables='My Cheat Tables';
-  strSpeedHack='Speedhack';
+  strCheatEngine='Jardel System';
+  strCheatTable='Code Table';
+  strCheatTableLower='code table';
+  strCheat='Modification';
+  strTrainer='Modifier';
+  strTrainerLower='modifier';
+  strMyCheatTables='Jardel Tables';
+  strSpeedHack='Speedmodifier';
 {$endif}
 
 resourcestring

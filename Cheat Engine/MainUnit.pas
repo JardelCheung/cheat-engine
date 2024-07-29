@@ -5254,7 +5254,7 @@ begin
     scanstate^.memscan := tmemscan.Create(ProgressBar);
     scanstate^.memscan.GuiScanner:=true;
     scanstate^.memscan.OnGuiUpdate:=@MemscanGuiUpdate;
-    scanstate^.foundlist := TFoundList.Create(foundlist3, scanstate^.memscan);    //build again
+    scanstate^.foundlist := TFoundList.Create(foundlist3, scanstate^.memscan, '');    //build again
     scanstate^.memscan.OnInitialScanDone:=memscan.OnInitialScanDone;
     scanstate^.memscan.OnScanDone:=memscan.OnScanDone;
     scanstate^.memscan.OnScanStart:=memscan.OnScanStart;
